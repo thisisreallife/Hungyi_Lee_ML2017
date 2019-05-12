@@ -6,6 +6,12 @@
 2. [老师主页]()
 3. [Datawhale开源笔记链接《李宏毅机器学习》](<https://datawhalechina.github.io/Leeml-Book/#/>)
 
+目录：
+
+1. ./task_and_answer  contains tasks and answers
+2. ./slide covers Lee's slides
+3. ./code covers Lee's code demo and my notes of code
+
 ### 2019.05.12
 
 **学习视频内容：**
