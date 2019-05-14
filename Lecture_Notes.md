@@ -96,7 +96,7 @@ model = function set，不是最终拟合好的，用来预测的function。
 
 ![1557757038673](.\image\Lec02 - traintest.png)
 
-![1557757072278](.\image\Lec02 - CV)
+![1557757072278](.\image\Lec02 - CV.png)
 
 
 
@@ -108,7 +108,7 @@ $$\theta^i = \theta^{i-1} - \eta\nabla \mathrm L(\theta^{i-1})$$
 
 如何调节学习速率？
 
-![1557761011014](.\image\lec03 - second_derivative)
+![1557761011014](.\image\lec03 - second_derivative.png)
 
 <https://www.cnblogs.com/pinard/p/5970503.html>
 
