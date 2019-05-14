@@ -72,13 +72,45 @@ $\lambda$是惩罚的参数：
 
 ## Lecture 1 demo
 
+有很多进行优化计算的方式：
+
+<http://ruder.io/optimizing-gradient-descent/index.html>
+
+## Lecture 2 Where does the error come from
+
+我们不知道真是的模型函数$f$，对于$f$的估计记为$\hat{f}$，误差的来源是方差和偏差。我们需要找到一个方差和偏差都比较好的估计，这和统计学中估计量中最小方差无偏估计的思想类似。
+
+如果模型复杂度上升，那么模型的方差会变大，偏差变小。
+
+![1557750520826](.\image\Lec02 - 01.png)
+
+关于这个图的理解，见<https://www.jianshu.com/p/8c7f033be58a>，<https://www.cnblogs.com/zongfa/p/9502470.html>。
+
+model = function set，不是最终拟合好的，用来预测的function。
+
+惩罚项的加入能够降低方差，偏差的影响不确定，要看是否包含了真实模型。
+
+![1557754050841](.\image\Lec02 - 02.png)
+
+使用training set和validation set去建模，testing set只用来测试，不能调节参数。
+
+![1557757038673](.\image\Lec02 - traintest.png)
+
+![1557757072278](.\image\Lec02 - CV)
 
 
 
+## Lecture 3 Gradient descent 
 
+$$\theta^i = \theta^{i-1} - \eta\nabla \mathrm L(\theta^{i-1})$$
 
+![1557759763492](.\image\lec03 - learning_rate.png)
 
+如何调节学习速率？
 
+![1557761011014](.\image\lec03 - second_derivative)
+
+<https://www.cnblogs.com/pinard/p/5970503.html>
 
 
 
