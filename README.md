@@ -3,7 +3,7 @@
 资料链接：
 
 1. [视频](<https://www.bilibili.com/video/av35932863?from=search&seid=2134843831238226258>)
-2. [老师主页]()
+2. [老师主页](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
 3. [Datawhale开源笔记链接《李宏毅机器学习》](<https://datawhalechina.github.io/Leeml-Book/#/>)
 
 目录：
